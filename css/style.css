@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+    --primary: #5928E5;
+    --secondary: #72757E;
+    --grey60: #16161A;
+    --grey50: #242629;
+    --grey40: #94A1B2;
+    --white40: #FFFFFE;
+    --purple30: #7F5AF0;
+    --tertiary40: #2CB67D;
+
+}
+body{
+  font-family: 'Arvo', sans-serif;
+  background: var(--grey60);
+}

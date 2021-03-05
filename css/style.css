@@ -138,7 +138,7 @@ header {
   margin-inline: 20px;
   text-transform: uppercase;
   text-decoration: none;
-  color: black;
+   color: white;
 }
 /* Fin de Menu */
 
@@ -233,7 +233,109 @@ header {
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
   h1{
-    font-size: 72px;
-    line-height: 80px;
+    font-size: 55px;
+    line-height: 60px;
+  }
+  .wrapper {
+    max-inline-size: 960px;
+    margin: auto;
+  }
+  .main-content {
+    padding-block-start: 60px;
+    margin: 16px;
+    /* padding-inline: 16px; */
+  }
+
+
+  /* Menu */
+  header {
+    justify-content: space-between;
+  }
+  .header-menu{
+    display: flex;
+    flex-direction: row;
+  }
+  .header-option{
+    color: var(--white40);
+  }
+  .header-icon{ display: none;}
+  /* Fin de Menu */
+
+
+
+  /* projects */
+  .projects{
+    padding-inline: 80px;
+  }
+  .projects-content{
+    flex-direction: column;
+    margin-block: 0;
+    margin-inline: 1em;
+    }
+  .projects-content h1{
+    font-size: 64px ;
+    line-height: 76px;
+  }
+  .button-secondary{
+    margin-inline-end: 10px;
+  }
+  /* Fin de projects */
+
+
+  /* brands */
+  .brands{
+    padding-inline: 10px;
+    padding-block-start: 80px;
+  }
+  .brands-content h1{
+    font-size: 40px ;
+    line-height: 56px;
+  }
+  .group-img-brands{
+    margin-inline: 80px;
+    flex-direction: row;
+    justify-content: center;
+    padding-block-start: 40px;
+
+  }
+  .group-img-brands img{
+    margin-inline: 1px;
+    padding-block: 5px;
+    height: 50px;
+  }
+  /* Fin de brands */
+
+  /* contacts */
+
+  .contacts{
+    margin-inline:10px;
+  }
+  .contacts h1{
+    font-size: 40px ;
+    line-height: 56px;
+  }
+  /* Fin de contacts */
+
+  /* footer  */
+  .footer{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .footer-content{
+    display: flex;
+    flex-direction: row;
+    margin-inline: 1em;
+    padding-block-end: 100px;
+
+    padding-block-start: 60px;
+    margin: 16px;
+  }
+  .footer-social p{
+    display: flex;
+    flex-direction: column;
+    padding-block-start: 1em;
+    margin-inline-end: 150px;
+  }
+  .items-footer{
   }
 }

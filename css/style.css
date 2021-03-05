@@ -44,6 +44,7 @@ h5{
   font-weight: bold;
   font-size: 20px;
   line-height: 26px;
+  color: var(--grey40);
 }
 p{
   font-weight: normal;
@@ -51,6 +52,10 @@ p{
   line-height: 27px;
   color: var(--secondary);
 }
+img{
+  max-width: 100%;
+}
+
 .p-body1-bold{
   font-weight: bold;
   font-size: 18px;
@@ -59,6 +64,7 @@ p{
 .p-body2-normal{
   font-size: 14px;
   line-height: 27px;
+  color: var(--white40);
 }
 
 .p-body2-bold{
@@ -66,20 +72,32 @@ p{
   font-size: 14px;
   line-height: 27px;
 }
-.p-button{
-  font-size: 18px;
-  line-height: 27px;
-  text-align: center;
-}
 .caption{
   font-size: 12px;
   line-height: 27px;
 }
+.button-principal,.button-secondary{
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: 'Arvo', sans-serif;
+  margin-block-start: 1em;
+  padding-block: 12px;
+  padding-inline: 24px;
+
+  font-size: 18px;
+  text-align: center;
+}
+
 .button-principal{
+  background: var(--purple30);
+  border: 1px solid var(--purple30);
+  color: var(--white40);
 
 }
 .button-secondary{
-
+  background: transparent;
+  border: 1px solid var(--purple30);
+  color: var(--purple30);
 }
 .button-tertiary{
 
@@ -88,6 +106,129 @@ p{
 
 }
 
+
+/* Menu */
+.hero {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.hero-content {
+  position:relative;
+}
+header {
+  display: flex;
+  padding-inline: 20px;
+  padding-block: 20px;
+  background: var(--grey60);
+  justify-content: space-between;
+  border-bottom: 1px solid var(--purple30) ;
+}
+.header-menu{
+  display: none;
+
+
+}
+#title-hero{
+  font-size: 24px;
+  color: var(--white40);
+  font-weight: bold;
+}
+.header-menu a {
+  margin-inline: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+/* Fin de Menu */
+
+/* presentation */
+.presentation{
+  display: flex;
+   /* box-sizing: content-box; */
+}
+.presentation-content{
+  display: flex;
+  flex-direction: column;
+  margin-block: 80px;
+  margin-inline: 1em;
+  align-items: flex-start;
+}
+.presentation-content p{
+  margin-block: 1em;
+}
+/* Fin de presentation */
+
+
+/* projects */
+.projects{
+  display: flex;
+}
+.projects-content{
+  display: flex;
+  flex-direction: column;
+  margin-block: 80px;
+  margin-inline: 1em;
+}
+.card-project-mobile{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.card-project-mobile img{
+  margin-block-start: 40px;
+}
+.card-project-mobile p{
+  margin-block: 1em;
+}
+.group-button-projec .button-secondary{
+  margin-block: 1em;
+}
+/* Fin de projects */
+
+/* brands */
+.brands{
+  display: flex;
+}
+.brands-content{
+  display: flex;
+  flex-direction: column;
+  margin-block-end: 80px;
+  margin-inline: 1em;
+}
+.group-img-brands{
+  display: flex;
+  flex-direction: column;
+  padding-block-start: 40px;
+}
+.group-img-brands img{
+  padding-inline: 100px;
+  padding-block: 40px;
+}
+/* Fin de brands */
+
+/* contacts */
+
+.contacts{
+  margin-block: 40px;
+  margin-inline: 1em;
+}
+.contacts a{
+  color: var(--purple30);
+}
+/* Fin de contacts */
+
+/* footer  */
+.footer-content{
+  margin-inline: 1em;
+  margin-block-end: 100px;
+
+}
+.footer-social p{
+  padding-block-start: 1em;
+}
+/* Fin de footer  */
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {

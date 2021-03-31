@@ -1,5 +1,9 @@
 # Web Portfolio - Gwen Stacy
 
+Gwen's portfolio contains her projects and testimonials of her work. Check out the demo [here.](https://fabiola29298.github.io/portfolio-gwen/)
+
+Solution for a project from [LeonidasEsteban.com](https://leonidasesteban.com/proyectos)
+
 <div align="center">
   <h3>
     <a href="https://fabiola29298.github.io/portfolio-gwen/">
@@ -21,7 +25,3 @@
 ![screenshot-elisa](/img/overview1.jpg)
 ![screenshot-mobile](/img/overview2.jpg)
 
-
-Gwen is a freelancer and programmer focused on human needs, technical possibilities and business success.. Check out the demo [aquí](https://fabiola29298.github.io/portfolio-gwen/)
-
-Solution for a project from [LeonidasEsteban.com](https://leonidasesteban.com/proyectos)
